@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #4ca1af, #c4e0e5);
+    color: #333;
+}
+
+.meteo-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    color: #4ca1af;
+}
+
+.meteo-icon {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.meteo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.humidite {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.condition {
+    font-size: 24px;
+    margin-top: 20px;
+}
